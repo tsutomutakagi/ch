@@ -1,0 +1,146 @@
+#img{
+  position: relative;
+  top: -10%;
+  width: 30vh;
+  /* bottom: 100px; */
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+#i{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 15%;
+  /* background: red; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#ii{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  /* background: red; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 15%;
+  opacity: 0.8;
+}
+
+
+#btn{
+  position: relative;
+  top: 30%;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  background: skyblue;
+  cursor: pointer;
+}
+
+
+
+
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 10;
+}
+
+
+.sp-menu #open {
+  font-size: 32px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sp-menu #open.hide {
+  display: none;
+}
+
+
+
+.sp-menu {
+  margin-left: auto;
+}
+
+
+
+
+/* 背景 */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+  background: white;
+}
+
+#miniumi{
+  position: fixed;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  right: 20%;
+  left: 20%;
+  width: 60%;
+  top: 90%;
+  line-height: 10px;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay #close {
+  font-size: 32px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#t{
+  position: fixed;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  right: 20%;
+  left: 20%;
+  width: 60%;
+  top: 90%;
+}
+
+
+#btn1{
+  position: relative;
+  top: 100px;
+  left: 200px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: yellow;
+  cursor: pointer;
+}
